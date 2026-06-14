@@ -5,7 +5,7 @@
 ##############################################################
 
 AESD_ASSIGNMENTS_VERSION = main
-AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignment-3-and-later-Dexianpeter.git
+AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-Dexianpeter.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
