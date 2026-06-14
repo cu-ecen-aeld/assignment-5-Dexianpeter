@@ -7,7 +7,7 @@ on:
             - '*'
 jobs:
     full-test:
-        container: cuaesd/aesd-autotest:24-assignment4-buildroot
+        container: cuaesd/aesd-autotest:24-assignment5-buildroot
         runs-on: self-hosted
         timeout-minutes: 120
         steps:
@@ -20,7 +20,6 @@ jobs:
           - name: Run full test
             env:
               GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-              FORCE_UNSAFE_CONFIGURE: 1
             run: ./full-test.sh
           - name: Cleanup
             if: always()
